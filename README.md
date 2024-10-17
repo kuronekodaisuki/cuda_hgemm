@@ -49,6 +49,13 @@ cd cuda_hgemm
 ./build.sh -a 86 -t Debug -b OFF
 ```
 
+### RTX4060Ti / RTX4090 / RTX 6000
+```
+cd cuda_hgemm
+./build.sh -a 89 -t Release -b OFF
+./build.sh -a 89 -t Debug -b OFF
+```
+
 # Run Sample
 ```
 ./run_sample.sh
